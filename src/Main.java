@@ -33,7 +33,8 @@ public class Main {
 
            System.out.println("게임을 시작합니다.");
            System.out.println("============================");
-           yourbet = (int) (Math.random() * 10) + 1;
+           yourbet = (int) (Math.random() * yourball) + 1;
+
            System.out.println("내가 베팅한 구슬 갯수> " + bet + "\n 상대가 배팅한 구슬갯수> " + yourbet);
            System.out.println("============================");
            if (bet > yourbet) {
